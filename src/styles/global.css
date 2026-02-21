@@ -1,0 +1,388 @@
+@custom-variant dark (&:is(.dark *));
+
+/* Fix scrollbar shift issue */
+html {
+  overflow-y: scroll;
+}
+
+:root {
+  --font-size: 16px;
+
+  /* --- MIYOMI LIGHT THEME (Character Inspired) --- */
+
+  /* Background: Subtle Warm Porcelain (Skin tone hint) */
+  --bg-page: #FFFDFA;
+  --bg-page-rgb: 255, 253, 250;
+  --bg-surface: #FFFFFF;
+  --bg-elev-1: #F0F9FF;
+  /* Very light blue tint for cards */
+
+  /* Text: Deep Navy (Uniform) instead of black for softer contrast */
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+
+  /* Brand: Royal Blue (Hair Shadows) - High Contrast for Text Clarity */
+  --brand: #1d4ed8;
+  --brand-strong: #1e40af;
+  /* Darker interaction state */
+
+  /* Accents */
+  --chip-bg: #EFF6FF;
+  /* Very light blue background for tags */
+  --divider: #E2E8F0;
+  --focus-ring: #38BDF8;
+  /* Cyan focus ring */
+
+  /* Shadcn/UI Mapping */
+  --background: #FFFDFA;
+  --foreground: #0F172A;
+
+  --card: #FFFFFF;
+  --card-foreground: #0F172A;
+
+  --popover: #FFFFFF;
+  --popover-foreground: #0F172A;
+
+  --primary: #1d4ed8;
+  /* Readable Blue */
+  --primary-foreground: #FFFFFF;
+
+  --secondary: #EFF6FF;
+  --secondary-foreground: #1E3A8A;
+
+  --muted: #F1F5F9;
+  --muted-foreground: #64748B;
+
+  --accent: #F0F9FF;
+  --accent-foreground: #0F172A;
+
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+
+  --border: #E2E8F0;
+  --input: transparent;
+  --input-background: #FFFFFF;
+  --switch-background: #CBD5E1;
+
+  --ring: #1d4ed8;
+
+  --radius: 0.75rem;
+  /* Slightly rounder for anime aesthetic */
+
+  /* Sidebar */
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #0F172A;
+  --sidebar-primary: #1d4ed8;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F0F9FF;
+  --sidebar-accent-foreground: #0F172A;
+  --sidebar-border: #E2E8F0;
+  --sidebar-ring: #1d4ed8;
+
+  /* Chart Colors (Updated to match palette) */
+  --chart-1: #1d4ed8;
+  /* Blue */
+  --chart-2: #38BDF8;
+  /* Cyan */
+  --chart-3: #F472B6;
+  /* Pink (Blush) */
+  --chart-4: #FBBF24;
+  /* Gold (Badge) */
+  --chart-5: #64748B;
+  /* Slate */
+
+  /* Font Weights */
+  --font-weight-medium: 600;
+  --font-weight-normal: 400;
+}
+
+.dark {
+  /* --- MIYOMI DARK THEME (Uniform Inspired) --- */
+
+  /* Background: Deep Navy (Uniform) */
+  --bg-page: #020617;
+  --bg-page-rgb: 2, 6, 23;
+  --bg-surface: #0F172A;
+  /* Lighter Navy */
+  --bg-elev-1: #1E293B;
+
+  /* Text: Ice White */
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+
+  /* Brand: Electric Cyan (Hair Highlights) - Glowing effect */
+  --brand: #38BDF8;
+  --brand-strong: #7DD3FC;
+
+  --chip-bg: #1E293B;
+  --divider: #1E293B;
+  --focus-ring: #38BDF8;
+
+  /* Shadcn/UI Mapping */
+  --background: #020617;
+  --foreground: #F8FAFC;
+
+  --card: #0F172A;
+  --card-foreground: #F8FAFC;
+
+  --popover: #0F172A;
+  --popover-foreground: #F8FAFC;
+
+  --primary: #38BDF8;
+  /* Cyan pops against Navy */
+  --primary-foreground: #020617;
+  /* Dark text on Cyan button */
+
+  --secondary: #1E293B;
+  --secondary-foreground: #F8FAFC;
+
+  --muted: #1E293B;
+  --muted-foreground: #94A3B8;
+
+  --accent: #1E293B;
+  --accent-foreground: #F8FAFC;
+
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+
+  --border: #1E293B;
+  --input: transparent;
+  --input-background: #1E293B;
+  --switch-background: #334155;
+
+  --ring: #38BDF8;
+
+  /* Sidebar */
+  --sidebar: #0F172A;
+  --sidebar-foreground: #F8FAFC;
+  --sidebar-primary: #38BDF8;
+  --sidebar-primary-foreground: #020617;
+  --sidebar-accent: #1E293B;
+  --sidebar-accent-foreground: #F8FAFC;
+  --sidebar-border: #1E293B;
+  --sidebar-ring: #38BDF8;
+
+  /* Chart Colors */
+  --chart-1: #38BDF8;
+  --chart-2: #1d4ed8;
+  --chart-3: #F472B6;
+  --chart-4: #FBBF24;
+  --chart-5: #94A3B8;
+
+  /* Font Weights */
+  --font-weight-medium: 600;
+  --font-weight-normal: 400;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    transition-property: background-color, border-color, color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html:not(.dark):not(.light) {
+    visibility: hidden;
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes bounce-slow {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out forwards;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+/* --- SEASONAL THEME: THE FROZEN UPDATE --- */
+
+/* 1. Base Variables (Light Mode Default) */
+.christmas {
+  /* Icy Backgrounds */
+  --bg-page: #f0f9ff;
+  --bg-surface: rgba(255, 255, 255, 0.8);
+  /* Semi-transparent ice */
+  --bg-elev-1: #e0f2fe;
+
+  /* Deep Blue Text for contrast against ice */
+  --text-primary: #0c4a6e;
+  --text-secondary: #334155;
+
+  /* Vivid Cyan/Blue Branding */
+  --brand: #0ea5e9;
+  --brand-strong: #0284c7;
+
+  --chip-bg: #bae6fd;
+  --divider: #bfdbfe;
+
+  /* Frosty Borders */
+  --border: #bae6fd;
+}
+
+/* 2. Dark Mode Overrides (Critical Fixes) */
+.dark.christmas {
+  /* Deep Winter Night Background */
+  --bg-page: #020617;
+  --bg-surface: rgba(15, 23, 42, 0.7);
+  /* Frosted dark glass */
+  --bg-elev-1: rgba(30, 41, 59, 0.6);
+
+  /* FIXED: Text Visibility */
+  --text-primary: #e0f2fe;
+  /* Bright Ice White - Readable against dark */
+  --text-secondary: #94a3b8;
+  /* Soft Blue-Grey */
+
+  /* Neon Cyan Branding */
+  --brand: #38bdf8;
+  --brand-strong: #7dd3fc;
+
+  --chip-bg: rgba(56, 189, 248, 0.1);
+  --divider: rgba(56, 189, 248, 0.2);
+  --border: rgba(56, 189, 248, 0.3);
+}
+
+/* 3. Interactive "Ice" Effects */
+
+/* Card Hover: Lift + Icy Glow */
+.christmas .group:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 10px 40px -10px rgba(14, 165, 233, 0.3);
+  border-color: var(--brand);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Button Shine Effect ("Frozen Polish") */
+.christmas button.bg-\[var\(--brand\)\] {
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(135deg, var(--brand), var(--brand-strong));
+}
+
+.christmas button.bg-\[var\(--brand\)\]::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg,
+      transparent,
+      rgba(255, 255, 255, 0.4),
+      transparent);
+  transform: skewX(-20deg);
+  transition: 0.5s;
+}
+
+.christmas button.bg-\[var\(--brand\)\]:hover::after {
+  left: 200%;
+  transition: 0.7s ease-in-out;
+}
