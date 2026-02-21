@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miyomi - Reserved</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="universe-bg" aria-hidden="true">
+        <div class="nebula-layer"></div>
+        <div class="starfield-layer"></div>
+        <figure class="anime-character char-cute">
+            <img src="img/cute.webp" alt="Miyomi character - cute guardian" loading="lazy">
+        </figure>
+        <figure class="anime-character char-angry">
+            <img src="img/angery.webp" alt="Miyomi character - angry sentinel" loading="lazy">
+        </figure>
+        <svg class="chibi-scout" viewBox="0 0 120 160" aria-hidden="true" focusable="false">
+            <defs>
+                <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#ff9a9e"/>
+                    <stop offset="100%" stop-color="#fad0c4"/>
+                </linearGradient>
+                <linearGradient id="suitGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#2c3e50"/>
+                    <stop offset="100%" stop-color="#1b2735"/>
+                </linearGradient>
+            </defs>
+            <circle cx="60" cy="40" r="30" fill="url(#hairGradient)"/>
+            <ellipse cx="60" cy="90" rx="32" ry="38" fill="#ffe0e4"/>
+            <rect x="34" y="98" width="52" height="52" rx="16" fill="url(#suitGradient)"/>
+            <circle cx="48" cy="80" r="4" fill="#2c3e50"/>
+            <circle cx="72" cy="80" r="4" fill="#2c3e50"/>
+            <path d="M45 110 Q60 125 75 110" fill="none" stroke="#ffd166" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <div class="floating-orb orb-one"></div>
+        <div class="floating-orb orb-two"></div>
+        <div class="floating-orb orb-three"></div>
+    </div>
+    <div class="container">
+        <div class="main-content">
+            <div class="avatar-section">
+                <div class="miyomi-avatar">
+                    <img src="img/miyomi_avatar.webp" alt="Miyomi" class="avatar-image">
+                    <div class="avatar-glow"></div>
+                </div>
+                <h1 class="brand-title">Miyomi - Reserved</h1>
+            </div>
+            <div class="quote-section">
+                <div class="quote-container" id="quote-container">
+                    <p class="quote-text" id="quote-text"></p>
+                    <p class="quote-source" id="quote-source"></p>
+                    <div class="quote-decoration"></div>
+                </div>
+            </div>
+            <div class="redirect-controls" id="redirect-controls">
+                <div class="countdown-display">
+                    <span class="countdown-label">Redirecting in</span>
+                    <span class="countdown-number" id="countdown">7</span>
+                    <span class="countdown-label">seconds</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-track"></div>
+                    <div class="progress-fill" id="progress"></div>
+                </div>
+                <div class="control-buttons">
+                    <button class="control-btn toggle-btn" id="toggle-btn" data-state="running">
+                        <span class="btn-icon" aria-hidden="true" data-icon-state="pause"></span>
+                        <span class="btn-text" data-running="Let me stay" data-paused="Continue redirect">Let me stay</span>
+                    </button>
+                    <a href="https://miyomi.pages.dev" class="miyomi-button" id="redirect-btn">
+                        <span class="button-text">Take me there</span>
+                        <span class="button-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="floating-elements" aria-hidden="true">
+            <div class="floating-element star-1">&#10022;</div>
+            <div class="floating-element star-2">&#10023;</div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
