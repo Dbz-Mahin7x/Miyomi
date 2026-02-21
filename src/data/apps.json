@@ -1,1 +1,1752 @@
-soon
+[
+  {
+    "id": "aniyomi",
+    "accentColor": "#3A84C2",
+    "name": "Aniyomi",
+    "status": "active",
+    "author": "jmir1",
+    "contentTypes": [
+      "Manga",
+      "Anime"
+    ],
+    "description": "An app for manga and anime.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://aniyomi.org/img/logo-128px.png",
+    "keywords": [
+      "tachiyomi fork",
+      "ani streaming"
+    ],
+    "supportedExtensions": [
+      "kohiden",
+      "keiyoushi",
+      "hollow",
+      "Yuzono-anime",
+      "secozzi"
+    ],
+    "githubUrl": "https://github.com/aniyomiorg/aniyomi",
+    "officialSite": "https://aniyomi.org",
+    "discordUrl": "https://discord.gg/aniyomi",
+    "forkOf": "Tachiyomi",
+    "upstreamUrl": "https://miyomi.pages.dev/software/tachiyomi",
+    "tutorials": [
+      {
+        "title": "Getting started",
+        "type": "guide",
+        "url": "https://aniyomi.org/docs/guides/getting-started",
+        "description": "Essential information to help you get set up with Aniyomi"
+      }
+    ]
+  },
+  {
+    "id": "mihon",
+    "accentColor": "#0058A0",
+    "name": "Mihon",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Free and open-source manga reader for Android. Fork of Tachiyomi with enhanced features.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/mihonapp",
+    "keywords": [
+      "tachiyomi",
+      "mihonapp"
+    ],
+    "supportedExtensions": [
+      "keiyoushi",
+      "Yuzono-manga",
+      "kavita"
+    ],
+    "githubUrl": "https://github.com/mihonapp/mihon",
+    "officialSite": "https://mihon.app",
+    "forkOf": "Tachiyomi",
+    "upstreamUrl": "https://miyomi.pages.dev/software/tachiyomi",
+    "tutorials": [
+      {
+        "title": "Mihon Getting Started Guide",
+        "type": "guide",
+        "url": "https://mihon.app/docs/guides/getting-started",
+        "description": "Official quick start that covers installation and first-time configuration."
+      }
+    ]
+  },
+  {
+    "id": "taison",
+    "accentColor": "#EAB316",
+    "name": "Taison",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Taison is fork of Mihon, the open source manga reader for Android. It keeps pace with upstream while adding polished quality-of-life upgrades, each chosen to give you more control and oversight without weighing down the interface.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/Gent8/Taison/refs/heads/main/docs/images/iconCropped.png",
+    "keywords": [
+      "Golden",
+      "fork"
+    ],
+    "supportedExtensions": [
+      "keiyoushi",
+      "Yuzono-manga"
+    ],
+    "forkOf": "Mihon",
+    "upstreamUrl": "https://miyomi.pages.dev/software/mihon",
+    "githubUrl": "https://github.com/Gent8/Taison",
+    "officialSite": "https://f-droid.org/en/packages/com.gent8.taison/",
+    "tutorials": []
+  },
+  {
+    "id": "dantotsu",
+    "accentColor": "#D300E5",
+    "name": "Dantotsu",
+    "status": "active",
+    "contentTypes": [
+      "Manga",
+      "Anime"
+    ],
+    "description": "Feature-rich app for manga and anime with MAL/AniList sync and extensive customization.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/Dantotsu-inc",
+    "keywords": [
+      "mal sync",
+      "anilist"
+    ],
+    "supportedExtensions": [
+      "kohiden"
+    ],
+    "getApp": "https://github.com/itsmechinmoy/dantotsu-updater/releases",
+    "githubUrl": "https://git.rebelonion.dev/rebelonion/Dantotsu",
+    "discordUrl": "https://discord.gg/4HPZ5nAWwM"
+  },
+  {
+    "id": "dartotsu",
+    "accentColor": "#23C6EE",
+    "name": "Dartotsu",
+    "status": "active",
+    "contentTypes": [
+      "Manga",
+      "Anime",
+      "Light Novel"
+    ],
+    "description": "Successor to Dantotsu. Rebuilt in Flutter for speed, cross‑platform support, and modern elegance.",
+    "platforms": [
+      "Android",
+      "iOS",
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/aayush2622/Dartotsu/refs/heads/main/assets/images/logo.png",
+    "keywords": [
+      "Dantotsu fork",
+      "best app"
+    ],
+    "supportedExtensions": [
+      "kodjodevf"
+    ],
+    "githubUrl": "https://github.com/aayush2622/Dartotsu",
+    "officialSite": "https://github.com/aayush2622/Dartotsu",
+    "discordUrl": "https://discord.gg/eyQdCpdubF"
+  },
+  {
+    "id": "mangayomi",
+    "accentColor": "#BE1622",
+    "name": "Mangayomi",
+    "status": "active",
+    "contentTypes": [
+      "Manga",
+      "Light Novel",
+      "Anime"
+    ],
+    "description": "A free and open‑source app for reading manga, novels, and watching anime — available on all major platforms.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Android",
+      "iOS",
+      "Linux"
+    ],
+    "logoUrl": "https://github.com/kodjodevf/mangayomi/raw/main/assets/app_icons/icon-red.png",
+    "keywords": [
+      "cross platform",
+      "light novel"
+    ],
+    "supportedExtensions": [
+      "kodjodevf",
+      "m2k3a-mangayomi-extensions",
+      "mangayomi-apkbridge",
+      "mangayomi-custom"
+    ],
+    "githubUrl": "https://github.com/kodjodevf/mangayomi",
+    "discordUrl": "https://discord.com/invite/EjfBuYahsP"
+  },
+  {
+    "id": "tachiyomi",
+    "accentColor": "#2E84BF",
+    "name": "Tachiyomi",
+    "status": "discontinued",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Free and Open-source manga reader",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/tachiyomiorg",
+    "keywords": [
+      "legacy",
+      "tachiyomi"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/tachiyomiorg",
+    "discordUrl": "https://discord.com/invite/tachiyomi"
+  },
+  {
+    "id": "Yukimi",
+    "accentColor": "#1E1E2E",
+    "name": "Yukimi",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "The successor to Kotatsu developed under YAKA’s Yumemi project.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/u/247026701?s=200&v=4",
+    "keywords": [
+      "kotatsu",
+      "doki",
+      "manga",
+      "yukimi"
+    ],
+    "forkOf": "Kotatsu",
+    "upstreamUrl": "https://miyomi.pages.dev/software/kotatsu",
+    "githubUrl": "https://github.com/YakaTeam/artifacts",
+    "officialSite": "https://kotatsu.app/",
+    "discordUrl": "https://discord.com/invite/PTd2bYgz9m"
+  },
+  {
+    "id": "kotatsu",
+    "accentColor": "#1976D2",
+    "name": "Kotatsu",
+    "status": "discontinued",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Lightweight manga reader with clean interface and local library management.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/KotatsuApp",
+    "keywords": [
+      "local library",
+      "kotatsu"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/KotatsuApp/Kotatsu",
+    "discordUrl": "https://discord.gg/NNJ5RgVBC5",
+    "officialSite": "https://kotatsu.app/"
+  },
+  {
+    "id": "cloudstream",
+    "accentColor": "#234ADB",
+    "name": "Cloudstream",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "A free, open‑source Android app for streaming and downloading media, where you bring the content from your own sources.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/recloudstream",
+    "keywords": [
+      "streaming",
+      "plugins"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/recloudstream/cloudstream",
+    "discordUrl": "https://discord.gg/5Hus6fM"
+  },
+  {
+    "id": "migu",
+    "accentColor": "#00BCD4",
+    "name": "Migu",
+    "status": "discontinued",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "A free, open‑source media app for Android, Windows, macOS, and Linux.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://miguapp.pages.dev/imgs/logo.webp",
+    "keywords": [
+      "android tv",
+      "streaming",
+      "anime"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/NoCrypt/Migu",
+    "officialSite": "https://miguapp.pages.dev/"
+  },
+  {
+    "id": "tachiyomi-sy",
+    "accentColor": "#CE2828",
+    "name": "Tachiyomi SY",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Feature-packed Mihon fork for Android with extensive customization and reader tweaks.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/jobobby04/TachiyomiSY/master/.github/readme-images/app-icon.png",
+    "keywords": [
+      "mihon fork",
+      "customization",
+      "sy"
+    ],
+    "supportedExtensions": [
+      "keiyoushi",
+      "Yuzono-manga"
+    ],
+    "forkOf": "Mihon",
+    "upstreamUrl": "https://miyomi.pages.dev/software/mihon",
+    "githubUrl": "https://github.com/jobobby04/TachiyomiSY",
+    "officialSite": "https://mihon.app/forks/TachiyomiSY",
+    "discordUrl": "https://discord.gg/mihon"
+  },
+  {
+    "id": "tachiyomi-j2k",
+    "accentColor": "#04264C",
+    "name": "Tachiyomi J2K",
+    "status": "abandoned",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Refined Mihon fork offering a Redesigned UI, Dynamic categories and more.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://mihon.app/forks/logo-j2k.webp",
+    "keywords": [
+      "mihon fork",
+      "j2k"
+    ],
+    "supportedExtensions": [
+      "keiyoushi",
+      "Yuzono-manga"
+    ],
+    "forkOf": "Mihon",
+    "upstreamUrl": "https://miyomi.pages.dev/software/mihon",
+    "githubUrl": "https://github.com/Jays2Kings/tachiyomiJ2K",
+    "officialSite": "https://mihon.app/forks/TachiyomiJ2K",
+    "discordUrl": "https://discord.gg/mihon"
+  },
+  {
+    "id": "yokai",
+    "accentColor": "#35BDF4",
+    "name": "Yokai",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Takes the best from J2K and enhances it.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/null2264/yokai/master/.github/readme-images/app-icon.webp",
+    "keywords": [
+      "mihon fork",
+      "fast"
+    ],
+    "supportedExtensions": [
+      "kohiden"
+    ],
+    "forkOf": "Mihon",
+    "upstreamUrl": "https://miyomi.pages.dev/software/mihon",
+    "githubUrl": "https://github.com/null2264/yokai",
+    "discordUrl": "https://discord.com/invite/mihon",
+    "officialSite": "https://mihon.app/forks/Yokai"
+  },
+  {
+    "id": "komikku",
+    "accentColor": "#FE5555",
+    "name": "Komikku",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Forked from TachiyomiSY and Mihon, it's a free, open‑source manga reader for Android that adds unique features and frequent updates.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/komikku-app",
+    "keywords": [
+      "open source",
+      "offline"
+    ],
+    "supportedExtensions": [
+      "keiyoushi",
+      "Yuzono-manga"
+    ],
+    "forkOf": "Mihon",
+    "upstreamUrl": "https://miyomi.pages.dev/software/mihon",
+    "githubUrl": "https://github.com/komikku-app/komikku",
+    "discordUrl": "https://discord.gg/85jB7V5AJR",
+    "officialSite": "https://mihon.app/forks/Komikku/"
+  },
+  {
+    "id": "neko",
+    "accentColor": "#FF124A",
+    "name": "Neko",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Dedicated MangaDex client for Android with login, tracking, and download support.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/nekomangaorg",
+    "keywords": [
+      "mangadex"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/nekomangaorg/Neko",
+    "discordUrl": "https://discord.gg/4vmK42QuKG"
+  },
+  {
+    "id": "perfect-viewer",
+    "accentColor": "#3948D2",
+    "name": "Perfect Viewer",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Long-running local reader for Android with extensive format support and bookshelf layouts.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://play-lh.googleusercontent.com/d0Lzgf9kGr5cdWhwmPLz1jskVc6-saKPhlYEMLHKH4zs-MBLjP35mUZc7GGswcQRKEI=w480-h960-rw",
+    "keywords": [
+      "local reader",
+      "cbz"
+    ],
+    "supportedExtensions": [],
+    "officialSite": "https://play.google.com/store/apps/details?id=com.rookiestudio.perfectviewer"
+  },
+  {
+    "id": "kuro-reader",
+    "accentColor": "#424242",
+    "name": "Kuro Reader +",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Freemium Android reader for local comics with cloud sync and more.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://github.com/VandersonQk/KuroReaderReleases/raw/main/img/kuro_icon.png",
+    "keywords": [
+      "local",
+      "cloud sync"
+    ],
+    "supportedExtensions": [],
+    "officialSite": "https://kurotoshiro.dev/",
+    "githubUrl": "https://github.com/VandersonQk/KuroReaderReleases/"
+  },
+  {
+    "id": "cdisplayex",
+    "accentColor": "#343A40",
+    "name": "CDisplayEx",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Popular Android comic reader supporting all comic book formats with smooth page rendering and bookshelf mode.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://www.cdisplayex.com/logo.svg",
+    "keywords": [
+      "comic reader"
+    ],
+    "supportedExtensions": [],
+    "discordUrl": "https://discord.gg/GKbezMyGG2",
+    "officialSite": "https://www.cdisplayex.com/"
+  },
+  {
+    "id": "ln-reader",
+    "accentColor": "#126E82",
+    "name": "LN Reader",
+    "status": "active",
+    "contentTypes": [
+      "Light Novel"
+    ],
+    "description": "Free and open source light novel reader for Android, inspired by Tachiyomi.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/LNReader",
+    "keywords": [
+      "light novel",
+      "extensions"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/LNReader/lnreader",
+    "officialSite": "https://www.lnreader.app/",
+    "discordUrl": "https://discord.gg/QdcWN4MD63"
+  },
+  {
+    "id": "quicknovel",
+    "accentColor": "#F8B500",
+    "name": "QuickNovel",
+    "status": "active",
+    "contentTypes": [
+      "Light Novel"
+    ],
+    "description": "An ad‑free, open‑source Android app for downloading novels and reading EPUBs.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/LagradOst",
+    "keywords": [
+      "novels",
+      "reader",
+      "downloader"
+    ],
+    "supportedExtensions": [],
+    "discordUrl": "https://discord.gg/5Hus6fM",
+    "githubUrl": "https://github.com/LagradOst/QuickNovel"
+  },
+  {
+    "id": "shosetsu",
+    "accentColor": "#A80000",
+    "name": "Shosetsu",
+    "status": "active",
+    "contentTypes": [
+      "Light Novel"
+    ],
+    "description": "A Free and Open Source Novel Reader for Android.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://gitlab.com/uploads/-/system/project/avatar/39099987/ic_launcher-playstore.png",
+    "keywords": [
+      "novels",
+      "light novel"
+    ],
+    "supportedExtensions": [],
+    "discordUrl": "https://discord.gg/ttSX7gB",
+    "officialSite": "https://shosetsu.app/",
+    "githubUrl": "https://gitlab.com/shosetsuorg/shosetsu"
+  },
+  {
+    "id": "moon-reader",
+    "accentColor": "#5899FC",
+    "name": "Moon+ Reader",
+    "status": "active",
+    "contentTypes": [
+      "Light Novel"
+    ],
+    "description": "Versatile eBook reader on Android supporting EPUB, PDF, and custom themes with TTS.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://play-lh.googleusercontent.com/DSZo9j5cd46iHJNg1WvqQUfxdOiufs4LEnKuwmiY4wzYS-enODO4pYQOEc9auExxkQ=w480-h960-rw",
+    "keywords": [
+      "ebook",
+      "tts"
+    ],
+    "supportedExtensions": [],
+    "officialSite": "https://play.google.com/store/apps/details?id=com.flyersoft.moonreader"
+  },
+  {
+    "id": "nineanimator",
+    "accentColor": "#FFEB02",
+    "name": "NineAnimator",
+    "status": "Discontinued",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "9ani is a free and open source anime watching app for iOS and macOS.",
+    "platforms": [
+      "iOS"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/SuperMarcus",
+    "keywords": [
+      "ios",
+      "streaming"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/SuperMarcus/NineAnimator"
+  },
+  {
+    "id": "paperback",
+    "accentColor": "#E34C4C",
+    "name": "Paperback",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "An Ad-Free Comic/Manga Reader for iOS.",
+    "platforms": [
+      "iOS"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/Paperback-iOS",
+    "keywords": [
+      "ios",
+      "extensions"
+    ],
+    "supportedExtensions": [],
+    "officialSite": "https://paperback.moe/",
+    "discordUrl": "https://discord.com/invite/jWCSt5zXFZ",
+    "githubUrl": "https://github.com/Paperback-iOS/app"
+  },
+  {
+    "id": "aidoku",
+    "accentColor": "#FF2F52",
+    "name": "Aidoku",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "A free and open source manga reading application for iOS and iPadOS.",
+    "platforms": [
+      "iOS"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/Aidoku",
+    "keywords": [
+      "ios",
+      "sources"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/Aidoku/Aidoku",
+    "discordUrl": "https://discord.gg/kh2PYT8V8d",
+    "officialSite": "https://aidoku.app/"
+  },
+  {
+    "id": "tachimanga",
+    "accentColor": "#0A6EBD",
+    "name": "Tachimanga",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Freemium manga reader for iOS.",
+    "platforms": [
+      "iOS"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/tachimanga",
+    "keywords": [
+      "ios"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/tachimanga",
+    "officialSite": "https://tachimanga.app/",
+    "discordUrl": "https://discord.gg/8aMcdYdaBz",
+    "tutorials": [
+      {
+        "title": "Tachimanga Quick Start Guide",
+        "type": "guide",
+        "url": "https://tachimanga.app/help/guides/get-started.html#reading-from-local-source",
+        "description": "Official quick start that covers installation and first-time configuration."
+      }
+    ]
+  },
+  {
+    "id": "suwatte",
+    "accentColor": "#6A5ACD",
+    "name": "Suwatte",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Suwatte is an ad-free, open source & feature-rich comic/manga reader for iOS.",
+    "platforms": [
+      "iOS"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/Suwatte",
+    "keywords": [
+      "ios",
+      "reader"
+    ],
+    "supportedExtensions": [],
+    "officialSite": "https://www.suwatte.app/",
+    "discordUrl": "https://discord.gg/8wmkXsT6h5",
+    "githubUrl": "https://github.com/suwatte"
+  },
+  {
+    "id": "stremio",
+    "accentColor": "#7C4DFF",
+    "name": "Stremio",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "Stremio is a free, open‑source media player that supports almost every platform, letting you organize and enjoy movies, series, live TV, and online channels through community addons with features like cross‑device sync, casting, and much more.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain=stremio.com",
+    "keywords": [
+      "streaming",
+      "tv",
+      "cross platform"
+    ],
+    "supportedExtensions": [
+      "stremio-addon"
+    ],
+    "officialSite": "https://www.stremio.com/",
+    "discordUrl": "https://blog.stremio.com/",
+    "tutorials": [
+      {
+        "title": "A Quick Video Guide",
+        "type": "guide",
+        "url": "https://stremio.zendesk.com/hc/en-us/articles/360008931971-Getting-Started-with-Stremio-A-Quick-Video-Guide",
+        "description": "Some Basic info to help you get set up"
+      },
+      {
+        "title": "Everything You Need To Know To Get Started",
+        "type": "guide",
+        "url": "https://bestdroidplayer.com/streaming-apps/stremio-guide-get-started/#How_to_Use_Stremio",
+        "description": "This guide will look through everything you should know."
+      }
+    ]
+  },
+  {
+    "id": "seanime",
+    "accentColor": "#1F1855",
+    "name": "Seanime",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "A media server with a web interface and desktop app for watching anime, managing your local library, and reading manga.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://github.com/5rahim/seanime/raw/main/docs/images/seanime-logo.png",
+    "keywords": [
+      "tracker",
+      "desktop"
+    ],
+    "supportedExtensions": [],
+    "officialSite": "https://seanime.app/",
+    "githubUrl": "https://github.com/5rahim/seanime",
+    "discordUrl": "https://discord.gg/Sbr7Phzt6m"
+  },
+  {
+    "id": "toru",
+    "accentColor": "#C28A8E",
+    "name": "Toru",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "Stream Torrents instantly, straight from the Command Line.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/sweetbbak",
+    "keywords": [
+      "torrent",
+      "player"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/sweetbbak/toru"
+  },
+  {
+    "id": "suwayomi",
+    "accentColor": "#35D4D5",
+    "name": "Suwayomi",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Successor to Tachidesk providing a self-hosted server with multiple desktop clients.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://github.com/Suwayomi/Suwayomi-Server/raw/master/server/src/main/resources/icon/faviconlogo.png",
+    "keywords": [
+      "server",
+      "tachidesk"
+    ],
+    "supportedExtensions": [
+      "keiyoushi"
+    ],
+    "githubUrl": "https://github.com/Suwayomi/Suwayomi-Server",
+    "discordUrl": "https://discord.gg/DDZdqZWaHA"
+  },
+  {
+    "id": "yacreader",
+    "accentColor": "#EAB403",
+    "name": "YACReader",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Cross-platform comic and manga reader with library server, history, and customizable viewer.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux",
+      "iOS",
+      "Android"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/YACReader",
+    "keywords": [
+      "library",
+      "cbz",
+      "cbr"
+    ],
+    "supportedExtensions": [],
+    "officialSite": "https://www.yacreader.com/",
+    "githubUrl": "https://github.com/YACReader/yacreader",
+    "discordUrl": "https://x.com/yacreader"
+  },
+  {
+    "id": "koodo-reader",
+    "accentColor": "#2C2C2C",
+    "name": "Koodo Reader",
+    "contentTypes": [
+      "Light Novel"
+    ],
+    "description": "Electron eBook reader that supports EPUB/PDF, annotations, and sync across desktop platforms.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/koodo-reader",
+    "keywords": [
+      "ebook",
+      "desktop"
+    ],
+    "supportedExtensions": [],
+    "officialSite": "https://koodoreader.com",
+    "githubUrl": "https://github.com/koodo-reader/koodo-reader"
+  },
+  {
+    "id": "thorium",
+    "accentColor": "#4788FD",
+    "name": "Thorium Reader",
+    "status": "active",
+    "contentTypes": [
+      "Light Novel"
+    ],
+    "description": "A free, open‑source EPUB reader for Windows, macOS, and Linux, with OPDS catalog support, and multilingual interface.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue.png",
+    "keywords": [
+      "epub",
+      "accessibility"
+    ],
+    "supportedExtensions": [],
+    "officialSite": "https://www.edrlab.org/software/thorium-reader/",
+    "githubUrl": "https://github.com/edrlab/thorium-reader"
+  },
+  {
+    "id": "anikku",
+    "accentColor": "#10858D",
+    "name": "Anikku",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "Free and open source anime watcher for Android based on Aniyomi.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://github.com/komikku-app/anikku/raw/master/.github/assets/icon.png",
+    "keywords": [
+      "anime"
+    ],
+    "supportedExtensions": [
+      "kohiden",
+      "Yuzono-anime",
+      "secozzi"
+    ],
+    "githubUrl": "https://github.com/komikku-app/anikku",
+    "officialSite": "https://anikku-app.github.io/",
+    "discordUrl": "https://discord.gg/85jB7V5AJR"
+  },
+  {
+    "id": "anymex",
+    "accentColor": "#000000",
+    "name": "AnymeX",
+    "status": "active",
+    "contentTypes": [
+      "Anime",
+      "Manga",
+      "Light Novel"
+    ],
+    "description": "Multi-service client for anime, manga, novels, and more.",
+    "platforms": [
+      "Android",
+      "iOS",
+      "Windows",
+      "Linux",
+      "Mac",
+      "Web"
+    ],
+    "logoUrl": "https://github.com/RyanYuuki/AnymeX/raw/main/assets/images/logo.png",
+    "keywords": [
+      "anime",
+      "manga",
+      "novels"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/RyanYuuki/AnymeX",
+    "officialSite": "https://anymex.vercel.app/",
+    "discordUrl": "https://discord.gg/5gAHhMvTcx"
+  },
+  {
+    "id": "animiru",
+    "accentColor": "#E748F8",
+    "name": "Animiru",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "Open-source Android anime client with clean UI baes on Aniyomi.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://aniyomi.org/forks/logo-animiru.webp",
+    "keywords": [
+      "anime"
+    ],
+    "supportedExtensions": [
+      "kohiden",
+      "Yuzono-anime",
+      "secozzi"
+    ],
+    "forkOf": "Aniyomi",
+    "upstreamUrl": "https://miyomi.pages.dev/software/aniyomi",
+    "githubUrl": "https://github.com/quickdesh/Animiru",
+    "officialSite": "https://aniyomi.org/forks/Animiru/",
+    "discordUrl": "https://discord.gg/yDuHDMwxhv"
+  },
+  {
+    "id": "comicrack-ce",
+    "accentColor": "#C59190",
+    "name": "ComicRack CE",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Community edition of the classic ComicRack reader for Windows with plugin support.",
+    "platforms": [
+      "Windows"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/maforget",
+    "keywords": [
+      "manga",
+      "comics",
+      "windows",
+      "reader"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/maforget/ComicRackCE",
+    "discordUrl": "https://www.reddit.com/r/comicrackusers/comments/e0l28i/documents_and_scripts/"
+  },
+  {
+    "id": "hayase",
+    "accentColor": "#FFFFFF",
+    "name": "Hayase",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "Android and Android TV streaming app with addon-driven architecture.",
+    "platforms": [
+      "Android",
+      "iOS",
+      "Windows",
+      "Linux",
+      "Mac"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/hayase-app",
+    "keywords": [
+      "anime",
+      "streaming",
+      "android"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/hayase-app",
+    "officialSite": "https://hayase.watch/",
+    "discordUrl": ""
+  },
+  {
+    "id": "koreader",
+    "accentColor": "#00A89C",
+    "name": "KOReader",
+    "status": "active",
+    "contentTypes": [
+      "Manga",
+      "Light Novel"
+    ],
+    "description": "KOReader is a document viewer primarily aimed at e-ink readers. Open-source multi-format reader supporting PDF, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices.",
+    "platforms": [
+      "Android",
+      "Linux"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/koreader",
+    "keywords": [
+      "E-ink",
+      "comics"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/koreader/koreader",
+    "officialSite": "https://koreader.rocks/"
+  },
+  {
+    "id": "legado",
+    "accentColor": "#4D4D4D",
+    "name": "Legado",
+    "status": "active",
+    "contentTypes": [
+      "Light Novel"
+    ],
+    "description": "Android light novel reader with extension system and customizable sources.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://github.com/gedoor/legado/raw/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "keywords": [
+      "light novel",
+      "android",
+      "extensions"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/gedoor/legado",
+    "officialSite": "https://gedoor.github.io/",
+    "discordUrl": "https://discord.gg/VtUfRyzRXn"
+  },
+  {
+    "id": "opencomic",
+    "accentColor": "#D14035",
+    "name": "OpenComic",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Cross-platform manga/comic reader.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/ollm/OpenComic/master/images/icon-border-transparent.png",
+    "keywords": [
+      "manga",
+      "comics",
+      "desktop",
+      "multi-platform"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/ollm/OpenComic",
+    "officialSite": "https://opencomic.app/",
+    "discordUrl": ""
+  },
+  {
+    "id": "panels",
+    "accentColor": "#262626",
+    "name": "Panels",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Highly polished iOS comic reader with library management and cloud sync.",
+    "platforms": [
+      "iOS"
+    ],
+    "logoUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/60/3a/85/603a8581-7990-7dc0-d08f-5a68007eef75/Placeholder.mill/400x400bb-75.webp",
+    "keywords": [
+      "ios",
+      "comics"
+    ],
+    "supportedExtensions": [],
+    "officialSite": "https://panels.app/",
+    "discordUrl": "https://discord.gg/bQ6NMecYFn"
+  },
+  {
+    "id": "shiru",
+    "accentColor": "#151420",
+    "name": "Shiru",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "Lightweight open-source anime client.",
+    "platforms": [
+      "Android",
+      "Windows",
+      "Linux",
+      "Mac"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/RockinChaos",
+    "keywords": [
+      "anime",
+      "android",
+      "lightweight",
+      "plugins"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/RockinChaos/Shiru"
+  },
+  {
+    "id": "yomikiru",
+    "accentColor": "#9872A5",
+    "name": "Yomikiru",
+    "status": "active",
+    "contentTypes": [
+      "Manga",
+      "Light Novel"
+    ],
+    "description": "Desktop application designed for reading locally stored manga, comics, webtoons, and EPUB novels",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/mienaiyami",
+    "keywords": [
+      "manga",
+      "comics",
+      "desktop",
+      "epub"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/mienaiyami/yomikiru"
+  },
+  {
+    "id": "tachiyomi-az",
+    "accentColor": "#F4900C",
+    "name": "Tachiyomi AZ",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "A fork of Mihon focused on reading only free Doujinshi and Email.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://mihon.app/forks/logo-az.webp",
+    "keywords": [
+      "email",
+      "doujinshi",
+      "tachi az"
+    ],
+    "supportedExtensions": [
+      "keiyoushi"
+    ],
+    "forkOf": "Mihon",
+    "upstreamUrl": "https://miyomi.pages.dev/software/mihon",
+    "githubUrl": "https://github.com/az4521/TachiyomiAZ",
+    "officialSite": "https://mihon.app/forks/TachiyomiAZ/",
+    "discordUrl": "https://discord.gg/mihon"
+  },
+  {
+    "id": "tachiyomi-at",
+    "accentColor": "#FF4040",
+    "name": "Tachiyomi AT",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "A fork of Mihon/Tachiyomi with automatic manga translation features, supporting MLKit, Google Translate, Gemini, and OpenRouter APIs.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://github.com/mannu691/TachiyomiAT/raw/main/.github/assets/logo.png",
+    "keywords": [
+      "tachiyomi",
+      "translation",
+      "android",
+      "reader"
+    ],
+    "supportedExtensions": [
+      "keiyoushi"
+    ],
+    "forkOf": "Mihon",
+    "upstreamUrl": "https://miyomi.pages.dev/software/mihon",
+    "githubUrl": "https://github.com/mannu691/TachiyomiAT",
+    "discordUrl": "https://discord.com/invite/rkvXfVPRdq"
+  },
+  {
+    "id": "animetail",
+    "accentColor": "#56ABA8",
+    "name": "Animetail",
+    "status": "active",
+    "contentTypes": [
+      "Anime",
+      "Manga"
+    ],
+    "description": "Unofficial fork of Aniyomi, with features like Discord Rich Presence, torrent support, and tracker integration.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://github.com/Animetailapp/Animetail/raw/master/.github/assets/icon.png",
+    "keywords": [
+      "aniyomi",
+      "anime",
+      "manga",
+      "android"
+    ],
+    "supportedExtensions": [
+      "kohiden",
+      "keiyoushi",
+      "secozzi"
+    ],
+    "forkOf": "Aniyomi",
+    "upstreamUrl": "https://miyomi.pages.dev/software/aniyomi",
+    "githubUrl": "https://github.com/Animetailapp/Animetail",
+    "discordUrl": "https://discord.gg/fvskrQZb9j"
+  },
+  {
+    "id": "readest",
+    "accentColor": "#BA5E28",
+    "name": "Readest",
+    "status": "active",
+    "contentTypes": [
+      "Light Novel",
+      "Manga"
+    ],
+    "description": "Modern, feature-rich ebook reader supporting EPUB, MOBI, CBZ, PDF, and more. Offering cross-platform sync, annotations, TTS, and translation.",
+    "platforms": [
+      "Android",
+      "iOS",
+      "Windows",
+      "Mac",
+      "Linux",
+      "Web"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/readest",
+    "keywords": [
+      "ebooks",
+      "epub",
+      "pdf",
+      "cross-platform",
+      "reader"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/readest/readest",
+    "officialSite": "https://readest.com",
+    "discordUrl": "https://discord.gg/gntyVNk3BJ"
+  },
+  {
+    "id": "sora",
+    "accentColor": "#F6F05A",
+    "name": "Sora",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "A modular media player for iOS and macOS, also known as Sulfur. Supports custom modules, external players, tracking services, and personal media servers.",
+    "platforms": [
+      "iOS",
+      "Mac"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/cranci1",
+    "keywords": [
+      "anime",
+      "ios",
+      "mac",
+      "player"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/cranci1/Sora",
+    "discordUrl": "https://discord.gg/XR3SrmUbpd"
+  },
+  {
+    "id": "unyo",
+    "accentColor": "#A3A3CE",
+    "name": "Unyo",
+    "status": "active",
+    "contentTypes": [
+      "Anime",
+      "Manga"
+    ],
+    "description": "A Desktop app for anime streaming and manga reading, inspired by Dantotsu. Integrates AniList, supports remote and local extensions.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://github.com/K3vinb5/Unyo/raw/rewrite/assets/logo.png",
+    "keywords": [
+      "anime",
+      "manga",
+      "desktop"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/K3vinb5/Unyo"
+  },
+  {
+    "id": "totoro",
+    "accentColor": "#595959",
+    "name": "Totoro",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "Windows 10/11 application for watching and tracking anime.",
+    "platforms": [
+      "Windows"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/insomniachi/Totoro/refs/heads/main/Totoro.WinUI/Assets/Square44x44Logo.scale-400.png",
+    "keywords": [
+      "anime",
+      "windows",
+      "tracking",
+      "streaming"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/insomniachi/Totoro",
+    "discordUrl": "https://discord.gg/KHxdxuCjhX"
+  },
+  {
+    "id": "zenshin",
+    "accentColor": "#611BAD",
+    "name": "Zenshin",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "Web and Electron-based anime streaming app with media management and external player support",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux",
+      "Web"
+    ],
+    "logoUrl": "https://hitarth-gg.github.io/zenshin-website/assets/zenshinLogo-9sXGGHse.png",
+    "keywords": [
+      "anime",
+      "electron",
+      "web",
+      "streaming"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/hitarth-gg/zenshin",
+    "officialSite": "https://hitarth-gg.github.io/zenshin-website"
+  },
+  {
+    "id": "houdoku",
+    "accentColor": "#FFB7C5",
+    "name": "Houdoku",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Free and open-source desktop manga reader and library manager. Supports filesystem imports, plugins, offline reading, and customizable UI.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://houdoku.org/logo.svg",
+    "keywords": [
+      "manga",
+      "desktop",
+      "library",
+      "reader"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "https://github.com/xgi/houdoku",
+    "officialSite": "https://houdoku.org"
+  },
+  {
+    "id": "anilab",
+    "accentColor": "#D9232E",
+    "name": "Anilab",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "A free anime player that lets you stream and organize titles with options for favorites, downloads, and daily updates.",
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://anilab.to/images/logo@2x.svg",
+    "keywords": [
+      "free",
+      "anime"
+    ],
+    "officialSite": "https://anilab.to/"
+  },
+  {
+    "id": "miru-app",
+    "accentColor": "#FFCBC4",
+    "name": "Miru App",
+    "status": "active",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "Free and open source Multi-functional application that supports video, comics, novels extended source for Android, Windows, Web.",
+    "platforms": [
+      "Android",
+      "Windows",
+      "Web"
+    ],
+    "logoUrl": "https://github.com/miru-project/miru-app/raw/dev/assets/icon/logo.png",
+    "keywords": [
+      "free",
+      "anime"
+    ],
+    "officialSite": "https://miru.js.org/en/",
+    "githubUrl": "https://github.com/miru-project/miru-app"
+  },
+  {
+    "id": "IReader",
+    "name": "IReader",
+    "accentColor": "#A68DB8",
+    "status": "active",
+    "author": "IReaderorg",
+    "contentTypes": [
+      "Light Novel"
+    ],
+    "description": "A free and open-source cross-platform novel reader with support for multiple sources through extensions and JavaScript plugins. Features offline reading, library management, dark mode, customizable themes, and AI Text-to-Speech on desktop.",
+    "platforms": [
+      "Android",
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/IReaderorg/IReader-website/refs/heads/main/public/icon-512x512.png",
+    "keywords": [
+      "light novel",
+      "novel reader",
+      "javascript plugins",
+      "lnreader sources",
+      "offline reading",
+      "tts",
+      "cross platform"
+    ],
+    "supportedExtensions": [
+      "ireader-extensions",
+      "lnreader-plugins"
+    ],
+    "githubUrl": "https://github.com/IReaderorg/IReader",
+    "officialSite": "https://ireaderorg.netlify.app/",
+    "discordUrl": "https://discord.com/invite/HBU6zD8c5v",
+    "tutorials": [
+      {
+        "title": "Getting Started",
+        "type": "guide",
+        "url": "https://github.com/IReaderorg/IReader/blob/master/docs/developer/wiki/Getting-Started.md",
+        "description": "Essential guide to help you get set up with IReader"
+      },
+      {
+        "title": "How To Add Extension Repository",
+        "type": "guide",
+        "url": "https://github.com/IReaderorg/IReader/blob/master/docs/guides/extension_repository_guide.md",
+        "description": "Learn how to add extension repositories to IReader"
+      },
+      {
+        "title": "JavaScript Plugin System",
+        "type": "guide",
+        "url": "https://github.com/IReaderorg/IReader/blob/master/docs/developer/js-plugin-system.md",
+        "description": "Guide to using JavaScript plugins including LNReader sources"
+      },
+      {
+        "title": "A Detailed Video Guide",
+        "type": "video",
+        "url": "https://www.youtube.com/embed/8RnQJzfN9OY",
+        "description": "A comprehensive video tutorial covering installation, configuration, and usage of IReader."
+      }
+    ]
+  },
+  {
+    "id": "قارئ مانجا عربي",
+    "accentColor": "#2897EA",
+    "name": "قارئ مانجا عربي",
+    "status": "active",
+    "author": "midou221",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "قارئ مانجا هو افضل تطبيق عربي من حيث المميزات والمحتوى",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://play-lh.googleusercontent.com/ft4fpr8NgdGIEDdDl326GvAlrL-OwPxLKkgRmcB4_Scdz8UAkZh0famQQKSBz0Eq9A=w240-h480-rw",
+    "keywords": [
+      "arabic app",
+      "manga"
+    ],
+    "supportedExtensions": [
+      "extension-id-1",
+      "extension-id-2"
+    ],
+    "githubUrl": "https://play.google.com/store/apps/details?id=org.hamak.mangareader",
+    "officialSite": "",
+    "discordUrl": ""
+  },
+  {
+    "id": "kotatsu-redo",
+    "accentColor": "#9F0081",
+    "name": "Kotatsu Redo",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Fork of Kotatsu with a goal to Maintain existing features and sources.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/Kotatsu-Redo/Kotatsu-Redo/refs/heads/devel/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "keywords": [
+      "local library",
+      "kotatsu"
+    ],
+    "forkOf": "Kotatsu",
+    "upstreamUrl": "https://miyomi.pages.dev/software/kotatsu",
+    "githubUrl": "https://github.com/Kotatsu-Redo/Kotatsu-Redo",
+    "discordUrl": "https://discord.gg/77PJztUXc"
+  },
+  {
+    "id": "doki",
+    "accentColor": "#1976D2",
+    "name": "Doki",
+    "status": "abandoned",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Successor to Kotatsu, a manga reader app for Android.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/DokiTeam/.github/main/profile/Doki.png",
+    "keywords": [
+      "kotatsu",
+      "manga"
+    ],
+    "forkOf": "Kotatsu",
+    "upstreamUrl": "https://miyomi.pages.dev/software/kotatsu",
+    "githubUrl": "https://github.com/DokiTeam/build-apps",
+    "discordUrl": "https://discord.gg/PTd2bYgz9m"
+  },
+  {
+    "id": "com.hamak.novelwebtoon",
+    "accentColor": "#FFEC00",
+    "name": "شاي الروايات: للمانجا",
+    "author": "Hmak.Inc",
+    "contentTypes": [
+      "Manga",
+      "Light Novel"
+    ],
+    "description": "قارئ مانجا وروايات بواجهة مريحة وخيارات تخصيص متعددة.",
+    "platforms": [
+      "Android"
+    ],
+    "logoUrl": "https://play-lh.googleusercontent.com/WwiJ24bS7ytTSeBxKhaIjHa7eo5xtFto7HqVH7AJCKoFNBekD1QmDEVOg5ZKDHNR3A=w480-h960-rw",
+    "keywords": [
+      "manga reader",
+      "epub viewer",
+      "Arabic novels",
+      "voice narration"
+    ],
+    "supportedExtensions": [],
+    "githubUrl": "",
+    "officialSite": "https://play.google.com/store/apps/details?id=com.hamak.novelwebtoon",
+    "tutorials": [
+      {
+        "title": "اضغط هنا",
+        "type": "guide",
+        "url": "https://github.com/tas33n/Miyomi/issues/17#issue-3613836582",
+        "description": "راجع هذه المشكلة على GitHub للحصول على شرح.."
+      }
+    ]
+  },
+  {
+    "id": "kototoro",
+    "name": "Kototoro",
+    "status": "active",
+    "author": "skepsun",
+    "contentTypes": [
+      "Manga",
+      "Anime",
+      "Light Novel"
+    ],
+    "description": "Kototoro is an unofficial fork project based on Kotatsu, focused on providing a better manga, novel, and video reading/playing experience.",
+    "platforms": [
+      "Android"
+    ],
+    "iconColor": "#1185EF",
+    "logoUrl": "https://raw.githubusercontent.com/skepsun/Kototoro/refs/heads/devel/metadata/en-US/icon.png",
+    "keywords": [
+      "manga",
+      "light novel"
+    ],
+    "forkOf": "Kotatsu",
+    "upstreamUrl": "https://miyomi.pages.dev/software/kotatsu",
+    "githubUrl": "https://github.com/skepsun/Kototoro",
+    "discordUrl": "https://discord.com/invite/PTd2bYgz9m"
+  },
+  {
+    "id": "futon",
+    "name": "Futon",
+    "description": "This fork continues development and maintenance of the manga reader, building upon the excellent foundation created by the Kotatsu team.",
+    "contentTypes": [
+      "Manga"
+    ],
+    "platforms": [
+      "Android"
+    ],
+    "forkOf": "Kotatsu",
+    "upstreamUrl": "https://miyomi.pages.dev/software/kotatsu",
+    "discordUrl": "https://discord.gg/9sqBHXhwzz",
+    "logoUrl": "https://avatars.githubusercontent.com/AppFuton",
+    "accentColor": "#FFA628",
+    "githubUrl": "https://github.com/AppFuton/Futon",
+    "officialSite": "https://futonapp.pages.dev/",
+    "keywords": [
+      "manga",
+      "reader"
+    ]
+  },
+  {
+    "id": "myk",
+    "name": "Manga You Know",
+    "status": "active",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "The cleanest desktop manga reader. Track, download and read your favorites easily.",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "iconColor": "#AE24A4",
+    "logoUrl": "https://avatars.githubusercontent.com/manga-you-know",
+    "githubUrl": "https://github.com/manga-you-know/desktop",
+    "discordUrl": "https://discord.gg/bGrqtHsGgs"
+  },
+  {
+    "id": "yomihon",
+    "name": "Yomihon",
+    "contentTypes": [
+      "Manga"
+    ],
+    "description": "Mihon but with OCR (text recognition).",
+    "platforms": [
+      "Android"
+    ],
+    "iconColor": "#6A3DE8",
+    "logoUrl": "https://raw.githubusercontent.com/yomihon/yomihon/main/.github/assets/logo.png",
+    "keywords": [
+      "OCR",
+      "Yomitan"
+    ],
+    "supportedExtensions": [
+      "keiyoushi",
+      "Yuzono-manga"
+    ],
+    "githubUrl": "https://github.com/yomihon/yomihon",
+    "officialSite": "https://yomihon.github.io/",
+    "discordUrl": "https://discord.com/invite/TXvTZdBuQa"
+  },
+  {
+    "id": "skystream",
+    "name": "Skystream",
+    "contentTypes": [
+      "Anime"
+    ],
+    "description": "A cross‑platform media streaming client inspired by CloudStream, using a custom JavaScript runtime to scrape and stream content across Android, iOS, Windows, macOS, and Linux from a single codebase.",
+    "platforms": [
+      "Android",
+      "iOS",
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "iconColor": "#FF6B9D",
+    "logoUrl": "https://raw.githubusercontent.com/akashdh11/skystream/refs/heads/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "githubUrl": "https://github.com/akashdh11/skystream",
+    "discordUrl": "https://discord.gg/73XGA8Mxn9",
+    "tutorials": [
+      {
+        "title": "Adding a Repo",
+        "type": "guide",
+        "description": "Go to Settings → Manage Extension → Add Repo. Type: universe"
+      }
+    ]
+  },
+  {
+    "id": "noveldokusha",
+    "name": "NovelDokusha",
+    "contentTypes": [
+      "Light Novel"
+    ],
+    "description": "A webnovel reader app for Android with translation and offline reading features",
+    "platforms": [
+      "Android"
+    ],
+    "iconColor": "#DCD9CF",
+    "logoUrl": "https://raw.githubusercontent.com/Nabeelshar/WebnovelReader/refs/heads/master/app/src/main/ic_launcher-playstore.png",
+    "forkOf": "NovelDokusha",
+    "upstreamUrl": "https://github.com/nanihadesuka/NovelDokusha",
+    "githubUrl": "https://github.com/Nabeelshar/WebnovelReader",
+    "tutorials": [
+      {
+        "title": "App Showcase",
+        "type": "video",
+        "url": "https://www.youtube.com/embed/sntHFlZ63BI"
+      }
+    ]
+  },
+  {
+    "id": "tadami",
+    "name": "Tadami",
+    "contentTypes": [
+      "Manga",
+      "Anime"
+    ],
+    "description": "Tadami is a mordern fork of Aniyomi featuring the Aurora theme for a cleaner, modern anime and manga experience.",
+    "platforms": [
+      "Android"
+    ],
+    "iconColor": "#0088FA",
+    "logoUrl": "https://raw.githubusercontent.com/andreykolesnikov/Tadami-Aniyomi-fork/refs/heads/main/app/src/main/res/drawable-nodpi/ic_launcher_foreground.png",
+    "supportedExtensions": [
+      "kohiden",
+      "keiyoushi",
+      "hollow",
+      "Yuzono-anime",
+      "secozzi"
+    ],
+    "forkOf": "Aniyomi",
+    "upstreamUrl": "https://miyomi.pages.dev/software/aniyomi",
+    "githubUrl": "https://github.com/andreykolesnikov/Tadami-Aniyomi-fork"
+  }
+]

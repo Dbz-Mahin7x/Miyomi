@@ -1,0 +1,153 @@
+[
+  {
+    "id": "installation",
+    "title": "Installation Guides",
+    "description": "Step-by-step guides for installing apps on different platforms",
+    "color": "#FF6B9D",
+    "icon": "download",
+    "guides": [
+      {
+        "id": "installing-mihon-android",
+        "title": "Installing Mihon on Android",
+        "slug": "installing-mihon-android",
+        "keywords": ["mihon", "android"],
+        "relatedAppIds": ["mihon"]
+      },
+      {
+        "id": "installing-aniyomi-android",
+        "title": "Installing Aniyomi on Android",
+        "slug": "installing-aniyomi-android",
+        "keywords": ["aniyomi", "android"],
+        "relatedAppIds": ["aniyomi"]
+      },
+      {
+        "id": "installing-mangayomi-desktop",
+        "title": "Installing Mangayomi on Windows/Mac",
+        "slug": "installing-mangayomi-desktop",
+        "keywords": ["mangayomi", "windows", "mac"],
+        "relatedAppIds": ["mangayomi"]
+      },
+      {
+        "id": "setting-up-dantotsu",
+        "title": "Setting up Dantotsu",
+        "slug": "setting-up-dantotsu",
+        "keywords": ["dantotsu", "setup"],
+        "relatedAppIds": ["dantotsu"]
+      }
+    ]
+  },
+  {
+    "id": "configuration",
+    "title": "Configuration",
+    "description": "Configure your apps for the best experience",
+    "color": "#4A90E2",
+    "icon": "settings",
+    "guides": [
+      {
+        "id": "adding-extension-sources",
+        "title": "Adding Extension Sources",
+        "slug": "adding-extension-sources",
+        "keywords": ["extensions", "sources"],
+        "relatedAppIds": ["mihon", "aniyomi", "mangayomi"],
+        "relatedExtensionIds": ["kohiden", "yuzono", "secozzi"]
+      },
+      {
+        "id": "configuring-tracking",
+        "title": "Configuring Tracking (MAL/AniList)",
+        "slug": "configuring-tracking",
+        "keywords": ["tracking", "mal", "anilist"],
+        "relatedAppIds": ["mihon", "aniyomi", "dantotsu"]
+      },
+      {
+        "id": "setting-up-backups",
+        "title": "Setting up Backups",
+        "slug": "setting-up-backups",
+        "keywords": ["backup"],
+        "relatedAppIds": ["mihon", "aniyomi", "mangayomi"]
+      },
+      {
+        "id": "import-export-library",
+        "title": "Import/Export Library",
+        "slug": "import-export-library",
+        "keywords": ["import", "export"],
+        "relatedAppIds": ["mihon", "aniyomi"]
+      }
+    ]
+  },
+  {
+    "id": "usage",
+    "title": "Usage Guides",
+    "description": "Get the most out of your apps",
+    "color": "#7C4DFF",
+    "icon": "book",
+    "guides": [
+      {
+        "id": "advanced-search-filtering",
+        "title": "Advanced Search & Filtering",
+        "slug": "advanced-search-filtering",
+        "keywords": ["search", "filter"],
+        "relatedAppIds": ["mihon", "aniyomi", "mangayomi"]
+      },
+      {
+        "id": "managing-downloads",
+        "title": "Managing Downloads",
+        "slug": "managing-downloads",
+        "keywords": ["downloads"],
+        "relatedAppIds": ["mihon", "aniyomi", "mangayomi"]
+      },
+      {
+        "id": "using-categories-tags",
+        "title": "Using Categories & Tags",
+        "slug": "using-categories-tags",
+        "keywords": ["categories", "tags"],
+        "relatedAppIds": ["mihon", "aniyomi"]
+      },
+      {
+        "id": "reader-settings",
+        "title": "Reader Settings & Customization",
+        "slug": "reader-settings",
+        "keywords": ["reader", "customization"],
+        "relatedAppIds": ["mihon", "aniyomi", "mangayomi"]
+      }
+    ]
+  },
+  {
+    "id": "troubleshooting",
+    "title": "Troubleshooting",
+    "description": "Common issues and how to fix them",
+    "color": "#FF8A65",
+    "icon": "help",
+    "guides": [
+      {
+        "id": "app-crashes",
+        "title": "App Crashes or Won't Start",
+        "slug": "app-crashes",
+        "keywords": ["crash", "troubleshoot"],
+        "relatedAppIds": ["mihon", "aniyomi", "mangayomi", "dantotsu"]
+      },
+      {
+        "id": "extensions-not-loading",
+        "title": "Extensions Not Loading",
+        "slug": "extensions-not-loading",
+        "keywords": ["extensions", "issues"],
+        "relatedAppIds": ["mihon", "aniyomi"],
+        "relatedExtensionIds": ["kohiden", "yuzono", "secozzi"]
+      },
+      {
+        "id": "download-issues",
+        "title": "Download Issues",
+        "slug": "download-issues",
+        "keywords": ["download"],
+        "relatedAppIds": ["mihon", "aniyomi", "mangayomi"]
+      },
+      {
+        "id": "tracking-sync-problems",
+        "title": "Tracking Sync Problems",
+        "slug": "tracking-sync-problems",
+        "keywords": ["tracking", "sync"],
+        "relatedAppIds": ["mihon", "aniyomi", "dantotsu"]
+      }
+    ]
+  }
+]
+

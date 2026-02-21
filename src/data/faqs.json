@@ -1,0 +1,60 @@
+[
+  {
+    "id": "install-apps",
+    "question": "How do I install apps on my device?",
+    "answer": "Navigate to the Apps page, find your desired app, and click the Download button. Follow the installation instructions specific to your platform. For Android, you may need to enable installation from unknown sources.",
+    "keywords": ["install", "download", "android"],
+    "category": "installation"
+  },
+  {
+    "id": "add-extensions",
+    "question": "How do I add extension sources?",
+    "answer": "Open your installed app, go to Extensions or Sources section, then paste the extension URL you copied from our Extensions section. The app will automatically fetch and install the extension.",
+    "keywords": ["extensions", "sources"],
+    "category": "configuration"
+  },
+  {
+    "id": "apps-safe",
+    "question": "Are these apps safe to use?",
+    "answer": "All apps listed on Miyomi are open-source projects from reputable developers. However, always download from official sources and check permissions before installing. We recommend checking the GitHub repositories for each app.",
+    "keywords": ["safe", "security", "open source"],
+    "category": "general"
+  },
+  {
+    "id": "extensions-compatibility",
+    "question": "Can I use extensions across different apps?",
+    "answer": "Some extensions are compatible with multiple apps, while others are app-specific. Check the compatibility badges on each extension to see which apps support it.",
+    "keywords": ["compatibility", "extensions"],
+    "category": "extensions"
+  },
+  {
+    "id": "extension-not-working",
+    "question": "Why isn't my extension working?",
+    "answer": "Make sure you've installed the correct extension for your app. Also, ensure your app is updated to the latest version. Some extensions may be temporarily down or require specific settings.",
+    "keywords": ["extensions", "troubleshoot"],
+    "category": "troubleshooting"
+  },
+  {
+    "id": "update-apps",
+    "question": "How do I update my apps?",
+    "answer": "Most apps have built-in update checkers. You can also revisit the Apps page to download the latest version. For Android apps, some support automatic updates through GitHub releases.",
+    "keywords": ["update", "apps"],
+    "category": "general"
+  },
+  {
+    "id": "ios-support",
+    "question": "Is there iOS support?",
+    "answer": "Currently, most apps are Android-only due to iOS restrictions. However, Mangayomi offers limited iOS support through TestFlight. We recommend using web-based alternatives for iOS users.",
+    "keywords": ["ios", "support"],
+    "category": "general",
+    "relatedAppIds": ["mangayomi", "paperback", "aidoku", "nineanimator"]
+  },
+  {
+    "id": "request-features",
+    "question": "Can I request new features or extensions?",
+    "answer": "Yes! Visit our GitHub repository or Discord community to submit feature requests. For extension requests, check if the source has an official API or contact the app developers.",
+    "keywords": ["request", "features", "extensions"],
+    "category": "general"
+  }
+]
+

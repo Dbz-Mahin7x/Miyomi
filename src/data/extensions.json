@@ -1,0 +1,644 @@
+[
+  {
+    "id": "kohiden",
+    "logoUrl": "https://github.com/Kohi-den.png",
+    "name": "Kohi-den",
+    "types": [
+      "Anime"
+    ],
+    "region": "ALL",
+    "accentColor": "#00ADB5",
+    "autoUrl": "aniyomi://add-repo?url=https://kohiden.xyz/Kohi-den/extensions/raw/branch/main/index.min.json",
+    "manualUrl": "https://kohiden.xyz/Kohi-den/extensions/raw/branch/main/index.min.json",
+    "github": "https://github.com/Kohi-den/extensions-source",
+    "supportedApps": [
+      "aniyomi",
+      "animiru",
+      "anikku"
+    ],
+    "info": "Extension repository for Aniyomi and it's variants.",
+    "keywords": [
+      "anime",
+      "repo"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "Yuzono-anime",
+    "name": "Yūzōnō (Anime)",
+    "logoUrl": "https://github.com/yuzono.png",
+    "types": [
+      "Anime"
+    ],
+    "region": "ALL",
+    "accentColor": "#A9331A",
+    "autoUrl": "aniyomi://add-repo?url=https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json",
+    "manualUrl": "https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json",
+    "website": "https://yuzono.github.io",
+    "github": "https://github.com/yuzono/aniyomi-extensions",
+    "supportedApps": [
+      "anikku",
+      "aniyomi",
+      "animiru"
+    ],
+    "info": "Repository curated by the Yūzōnō community for Aniyomi variants.",
+    "keywords": [
+      "aniyomi",
+      "Yuzono"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "Yuzono-manga",
+    "name": "Yūzōnō (Manga)",
+    "logoUrl": "https://github.com/yuzono.png",
+    "types": [
+      "Manga"
+    ],
+    "region": "ALL",
+    "accentColor": "#A9331A",
+    "autoUrl": "aniyomi://add-repo?url=https://raw.githubusercontent.com/yuzono/manga-repo/repo/index.min.json",
+    "manualUrl": "https://raw.githubusercontent.com/yuzono/manga-repo/repo/index.min.json",
+    "website": "https://yuzono.github.io",
+    "github": "https://github.com/yuzono/tachiyomi-extensions",
+    "supportedApps": [
+      "komikku",
+      "mihon",
+      "Yuzono"
+    ],
+    "info": "Repository curated by the Yūzōnō community for Mihon variants.",
+    "keywords": [
+      "manga",
+      "komikku"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "secozzi",
+    "name": "Secozzi's Repo",
+    "logoUrl": "https://github.com/Secozzi.png",
+    "types": [
+      "Anime"
+    ],
+    "region": "ALL",
+    "accentColor": "#504150",
+    "autoUrl": "aniyomi://add-repo?url=https://raw.githubusercontent.com/Secozzi/aniyomi-extensions/refs/heads/repo/index.min.json",
+    "manualUrl": "https://raw.githubusercontent.com/Secozzi/aniyomi-extensions/refs/heads/repo/index.min.json",
+    "github": "https://github.com/Secozzi/aniyomi-extensions",
+    "supportedApps": [
+      "aniyomi",
+      "anikku",
+      "animiru",
+      "mangayomi"
+    ],
+    "info": "Repo for Aniyomi & it's varients for Jellyfin, Stremio and Torbox",
+    "keywords": [
+      "secozzi",
+      "Torbox",
+      "Jellyfin",
+      "Stremio"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "Swakshan",
+    "name": "Swakshan",
+    "info": "This repository contains the available javascript extension catalogues for the Mangayomi app.",
+    "logoUrl": "https://avatars.githubusercontent.com/u/56347042?s=96&v=4",
+    "types": [
+      "Anime",
+      "Manga",
+      "Novel"
+    ],
+    "region": "ALL",
+    "accentColor": "#D15EB8",
+    "autoUrl": "https://intradeus.github.io/http-protocol-redirector/?r=mangayomi://add-repo?repo_name=Mangayomi%20Swak%20Extensions%26repo_url=https://github.com/Swakshan/mangayomi-swak-extensions%26manga_url=https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/index.json%26anime_url=https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/anime_index.json",
+    "manualUrl": "",
+    "github": "https://github.com/Swakshan/mangayomi-swak-extensions",
+    "supportedApps": [
+      "mangayomi"
+    ],
+    "keywords": [
+      "Mangayomi"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "hollow",
+    "name": "Hollow's Repo",
+    "logoUrl": "https://codeberg.org/avatars/adda4bc8aeef752bb536aed03fa01f63?size=200",
+    "types": [
+      "Anime"
+    ],
+    "region": "FR",
+    "accentColor": "#990066",
+    "autoUrl": "aniyomi://add-repo?url=https://codeberg.org/hollow/aniyomi-extensions-fr/media/branch/repo/index.min.json",
+    "manualUrl": "https://codeberg.org/hollow/aniyomi-extensions-fr/media/branch/repo/index.min.json",
+    "github": "https://codeberg.org/hollow/aniyomi-extensions-fr",
+    "supportedApps": [
+      "aniyomi",
+      "animiru",
+      "anikku"
+    ],
+    "info": "French extensions for Aniyomi and its variants.",
+    "keywords": [
+      "french"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "keiyoushi",
+    "name": "Keiyoushi",
+    "logoUrl": "https://github.com/keiyoushi.png",
+    "types": [
+      "Manga"
+    ],
+    "region": "ALL",
+    "accentColor": "#BDCF47",
+    "autoUrl": "tachiyomi://add-repo?url=https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json",
+    "manualUrl": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json",
+    "github": "https://github.com/keiyoushi/extensions",
+    "supportedApps": [
+      "mihon",
+      "tachiyomi-sy",
+      "yokai",
+      "komikku"
+    ],
+    "info": "Extension repository for Mihon and its variants.",
+    "keywords": [
+      "keiyoushi",
+      "mihon repo",
+      "manga extensions"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "kodjodevf",
+    "name": "Kodjodevf",
+    "logoUrl": "https://github.com/kodjodevf.png",
+    "types": [
+      "Light Novel",
+      "Manga"
+    ],
+    "region": "ALL",
+    "accentColor": "#A4948F",
+    "autoUrl": "mangayomi://add-repo?repo_name=mangayomi-extensions&repo_url=https://github.com/kodjodevf/mangayomi-extensions&manga_url=https://kodjodevf.github.io/mangayomi-extensions/index.json&novel_url=https://kodjodevf.github.io/mangayomi-extensions/novel_index.json",
+    "manualUrl": "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/refs/heads/main/index.json",
+    "website": "https://kodjodevf.github.io/mangayomi-extensions/",
+    "github": "https://github.com/kodjodevf/mangayomi-extensions",
+    "supportedApps": [
+      "mangayomi"
+    ],
+    "info": "Public source extensions (Manga & novels only) for the Mangayomi app.",
+    "keywords": [
+      "mangayomi",
+      "dartotsu"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "kavita",
+    "name": "Kavita",
+    "logoUrl": "https://github.com/Kareadita.png",
+    "types": [
+      "Kavita"
+    ],
+    "accentColor": "#4AC694",
+    "website": "https://wiki.kavitareader.com/guides/",
+    "supportedApps": [
+      "mihon",
+      "aidoku",
+      "paperback",
+      "koreader",
+      "panels"
+    ],
+    "info": "Connect Kavita to Mihon, Aidoku, Paperback, and other supported readers. Setup details are in the respective 3rd Party Clients guide.",
+    "keywords": [
+      "self-hosted"
+    ],
+    "lastUpdated": "2025-07-30"
+  },
+  {
+    "id": "suwayomi-extension",
+    "name": "Suwayomi Extension",
+    "logoUrl": "https://github.com/Suwayomi.png",
+    "types": [
+      "Suwayomi"
+    ],
+    "accentColor": "#3E3F44",
+    "autoUrl": "tachiyomi://add-repo?url=https://raw.githubusercontent.com/Suwayomi/tachiyomi-extension/repo/index.min.json",
+    "manualUrl": "https://raw.githubusercontent.com/Suwayomi/tachiyomi-extension/repo/index.min.json",
+    "github": "https://github.com/Suwayomi/tachiyomi-extension",
+    "supportedApps": [
+      "mihon"
+    ],
+    "info": "Official Suwayomi extension repo for Tachiyomi and variants.",
+    "keywords": [
+      "self-hosted"
+    ],
+    "lastUpdated": "2025-08-15"
+  },
+  {
+    "id": "m2k3a-mangayomi-extensions",
+    "name": "m2k3a's Repo",
+    "logoUrl": "https://github.com/m2k3a.png",
+    "types": [
+      "Manga",
+      "Anime",
+      "Novel"
+    ],
+    "region": "ALL",
+    "accentColor": "#D16E74",
+    "autoUrl": "mangayomi://add-repo?repo_name=mangayomi-extensions&repo_url=https://github.com/m2k3a/mangayomi-extensions&manga_url=https://m2k3a.github.io/mangayomi-extensions/index.json&anime_url=https://m2k3a.github.io/mangayomi-extensions/anime_index.json&novel_url=https://m2k3a.github.io/mangayomi-extensions/novel_index.json",
+    "manualUrl": "https://m2k3a.github.io/mangayomi-extensions/index.json",
+    "github": "https://github.com/m2k3a/mangayomi-extensions",
+    "supportedApps": [
+      "mangayomi"
+    ],
+    "info": "Public source catalogues for Mangayomi with manga, anime, and novels.",
+    "keywords": [
+      "mangayomi",
+      "catalogue"
+    ],
+    "lastUpdated": "2025-10-26"
+  },
+  {
+    "id": "kegareta-sauces",
+    "name": "Kegareta Sauces",
+    "logoUrl": "https://github.com/gato404.png",
+    "types": [
+      "Manga",
+      "Anime",
+      "Novel"
+    ],
+    "region": "ALL",
+    "accentColor": "#BFD36F",
+    "autoUrl": "mangayomi://add-repo?repo_name=kegareta-sauces&repo_url=https://github.com/gato404/kegareta-sauces&manga_url=https://raw.githubusercontent.com/gato404/kegareta-sauces/refs/heads/main/index.json&anime_url=https://raw.githubusercontent.com/gato404/kegareta-sauces/refs/heads/main/anime_index.json",
+    "manualUrl": "https://raw.githubusercontent.com/gato404/kegareta-sauces/main/index.json",
+    "github": "https://github.com/gato404/kegareta-sauces",
+    "supportedApps": [
+      "mangayomi"
+    ],
+    "info": "18+ Extensions repository for Mangayomi.",
+    "keywords": [
+      "mangayomi",
+      "extensions"
+    ],
+    "lastUpdated": "2025-08-30"
+  },
+  {
+    "id": "aidoku-community-sources",
+    "name": "Aidoku Community Sources",
+    "logoUrl": "https://github.com/Aidoku-Community.png",
+    "types": [
+      "Manga"
+    ],
+    "region": "ALL",
+    "accentColor": "#FF2F52",
+    "autoUrl": "https://aidoku.app/add-source-list/?url=https://raw.githubusercontent.com/Aidoku-Community/sources/gh-pages/",
+    "manualUrl": "https://aidoku-community.github.io/sources/index.min.json",
+    "website": "https://aidoku-community.github.io/sources/",
+    "github": "https://github.com/Aidoku-Community/sources",
+    "supportedApps": [
+      "aidoku"
+    ],
+    "info": "Community-maintained unofficial sources for Aidoku.",
+    "keywords": [
+      "aidoku",
+      "community"
+    ],
+    "lastUpdated": "2025-10-27"
+  },
+  {
+    "id": "thenetsky-community-extensions",
+    "name": "Netsky's Community Extensions (v0.8)",
+    "logoUrl": "https://github.com/TheNetsky.png",
+    "types": [
+      "Manga"
+    ],
+    "region": "ALL",
+    "accentColor": "#000000",
+    "autoUrl": "paperback://addRepo?displayName=Netsky%27s%20Extensions%20(0.8)&url=https%3A%2F%2Fthenetsky.github.io%2Fnetskys-extensions%2F0.8",
+    "manualUrl": "https://thenetsky.github.io/community-extensions/0.8",
+    "website": "https://thenetsky.github.io/netskys-extensions/0.8/",
+    "github": "https://github.com/TheNetsky/community-extensions",
+    "supportedApps": [
+      "paperback"
+    ],
+    "info": "Community-made Paperback sources.",
+    "keywords": [
+      "paperback",
+      "extensions"
+    ],
+    "lastUpdated": "2025-09-20"
+  },
+  {
+    "id": "inkdex-extensions",
+    "name": "Inkdex Extensions",
+    "logoUrl": "https://github.com/inkdex.png",
+    "types": [
+      "Manga",
+      "Novel"
+    ],
+    "region": "ALL",
+    "accentColor": "#2B3142",
+    "autoUrl": "paperback://addRepo?displayName=Inkdex%20Extensions%20(0.9)&url=https%3A%2F%2Finkdex.github.io%2Fextensions%2F0.9%2Fstable",
+    "manualUrl": "https://inkdex.github.io/extensions/0.9/stable",
+    "website": "https://inkdex.github.io/",
+    "github": "https://github.com/inkdex/extensions",
+    "supportedApps": [
+      "paperback"
+    ],
+    "info": "Paperback extension registry combining all Inkdex community extensions.",
+    "keywords": [
+      "paperback",
+      "inkdex"
+    ],
+    "lastUpdated": "2025-10-15"
+  },
+  {
+    "id": "netskys-extensions",
+    "name": "Netsky’s Extensions (v0.9)",
+    "logoUrl": "https://github.com/TheNetsky.png",
+    "types": [
+      "Manga"
+    ],
+    "region": "ALL",
+    "accentColor": "#000000",
+    "autoUrl": "paperback://addRepo?displayName=Netsky%27s%20Extensions%20(0.9)&url=https://thenetsky.github.io/netskys-extensions/0.9",
+    "manualUrl": "https://thenetsky.github.io/netskys-extensions/0.9",
+    "website": "https://thenetsky.github.io/netskys-extensions/0.9/",
+    "github": "https://github.com/TheNetsky/netskys-extensions",
+    "supportedApps": [
+      "paperback"
+    ],
+    "info": "Netsky’s personal Paperback sources repo (0.9).",
+    "keywords": [
+      "paperback",
+      "netsky"
+    ],
+    "lastUpdated": "2025-09-10"
+  },
+  {
+    "id": "Mantton-suwatte-sources",
+    "name": "Mantton's Suwatte Sources",
+    "logoUrl": "https://suwatte.mantton.com/favicon.svg",
+    "types": [
+      "Manga"
+    ],
+    "region": "GB",
+    "accentColor": "#6A5ACD",
+    "autoUrl": "suwatte://list?url=https://aegir.mantton.com",
+    "website": "https://aegir.mantton.com/",
+    "supportedApps": [
+      "suwatte"
+    ],
+    "info": "Mantton's Sources for Suwatte iOS reader.",
+    "keywords": [
+      "suwatte",
+      "sources"
+    ],
+    "lastUpdated": "2025-01-09"
+  },
+  {
+    "id": "Cloudstream-megarepo",
+    "name": "Cloudstream MegaRepo",
+    "logoUrl": "https://github.com/self-similarity.png",
+    "types": [
+      "Anime",
+      "Manga"
+    ],
+    "region": "ALL",
+    "accentColor": "#708492",
+    "autoUrl": "cloudstreamrepo://raw.githubusercontent.com/self-similarity/MegaRepo/builds/repo.json",
+    "manualUrl": "https://raw.githubusercontent.com/self-similarity/MegaRepo/builds/repo.json",
+    "github": "https://github.com/self-similarity/MegaRepo",
+    "supportedApps": [
+      "cloudstream"
+    ],
+    "info": "One repository to rule them all: Cloudstream Mega Repo.",
+    "keywords": [
+      "cloudstream",
+      "megarepo"
+    ],
+    "lastUpdated": "2025-09-05"
+  },
+  {
+    "id": "aniyomi-compat-extension",
+    "name": "Aniyomi Compat Extension",
+    "logoUrl": "https://github.com/CranberrySoup.png",
+    "types": [
+      "Anime"
+    ],
+    "region": "ALL",
+    "accentColor": "#633F40",
+    "autoUrl": "cloudstreamrepo://raw.githubusercontent.com/CranberrySoup/AniyomiCompatExtension/master/repo.json",
+    "manualUrl": "https://raw.githubusercontent.com/CranberrySoup/AniyomiCompatExtension/master/repo.json",
+    "github": "https://github.com/CranberrySoup/AniyomiCompatExtension",
+    "supportedApps": [
+      "cloudstream"
+    ],
+    "info": "Aniyomi Extensions in CloudStream.",
+    "keywords": [
+      "aniyomi"
+    ],
+    "lastUpdated": "2025-08-18"
+  },
+  {
+    "id": "dantotsu-novel-extensions",
+    "name": "Dantotsu Novel Extensions",
+    "logoUrl": "https://github.com/dannovels.png",
+    "types": [
+      "Novel"
+    ],
+    "region": "ALL",
+    "accentColor": "#DE94D1",
+    "autoUrl": "novelyomi://add-repo?url=https://raw.githubusercontent.com/dannovels/novel-extensions/repo/index.min.json",
+    "manualUrl": "https://raw.githubusercontent.com/dannovels/novel-extensions/repo/index.min.json",
+    "github": "https://github.com/dannovels/novel-extensions",
+    "supportedApps": [
+      "dantotsu"
+    ],
+    "info": "Extensions for light novel sources in Dantotsu.",
+    "keywords": [
+      "novel",
+      "dartotsu"
+    ],
+    "lastUpdated": "2025-07-22"
+  },
+  {
+    "id": "anymex-ext",
+    "name": "AnymeX Extensions",
+    "logoUrl": "https://anymex.vercel.app/img/logo_128px.png",
+    "types": [
+      "Anime",
+      "Manga",
+      "Novel"
+    ],
+    "region": "ALL",
+    "accentColor": "#0058A0",
+    "autoUrl": "anymex://add-repo?anime_url=https://anymex.vercel.app/repo/anime_index.json&manga_url=https://anymex.vercel.app/repo/index.json&novel_url=https://anymex.vercel.app/repo/novel_index.json",
+    "manualUrl": "https://anymex.vercel.app/repo/anime_index.json",
+    "website": "https://anymex.vercel.app/docs/guides/getting-started#extensions",
+    "github": "",
+    "supportedApps": [
+      "anymex"
+    ],
+    "info": "Sources for the AnymeX.",
+    "keywords": [],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "mangareader",
+    "name": "Mangareader",
+    "types": [
+      "Manga"
+    ],
+    "region": "SA",
+    "accentColor": "#FF6B9D",
+    "manualUrl": "https://raw.githubusercontent.com/midou221/mangareader_extension/refs/heads/main/index.min.json",
+    "website": "https://github.com/midou221/mangareader_extension",
+    "github": "https://github.com/midou221/mangareader_extension",
+    "supportedApps": [
+      "قارئ مانجا عربي"
+    ],
+    "info": "مصادر خاص بالتطبيق",
+    "keywords": [
+      "قارئ مانجا عربي",
+      "arabic"
+    ],
+    "lastUpdated": "2025-11-11"
+  },
+  {
+    "id": "Skittyblock",
+    "name": "Skittyblock",
+    "logoUrl": "https://avatars.githubusercontent.com/u/11185448?v=4",
+    "types": [
+      "Manga"
+    ],
+    "region": "ALL",
+    "accentColor": "#000000",
+    "autoUrl": "https://aidoku.app/add-source-list/?url=https://raw.githubusercontent.com/Skittyblock/aidoku-community-sources/gh-pages/",
+    "manualUrl": "https://skittyblock.github.io/aidoku-community-sources/index.min.json",
+    "website": "https://github.com/...",
+    "github": "https://github.com/Skittyblock/aidoku-community-sources",
+    "supportedApps": [
+      "Aidoku"
+    ],
+    "info": "Public sources for the Aidoku application",
+    "keywords": [
+      "Aidoku",
+      "anime"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "Moomooo95",
+    "name": "Moomooo95",
+    "logoUrl": "https://avatars.githubusercontent.com/u/65874572?v=4",
+    "types": [
+      "Manga"
+    ],
+    "region": "FR",
+    "accentColor": "#77D2DA",
+    "autoUrl": "paperback://addRepo?displayName=Moomooo95%27s%20Extensions&url=https%3A%2F%2Fmoomooo95.github.io%2Fmoomooo95-extensions%2Fmaster",
+    "manualUrl": "https://moomooo95.github.io/moomooo95-extensions/master/",
+    "website": "https://moomooo95.github.io/moomooo95-extensions/master/",
+    "github": "https://github.com/Moomooo95/moomooo95-extensions",
+    "supportedApps": [
+      "Paperback"
+    ],
+    "info": "French sources for the Paperback application",
+    "keywords": [
+      "French",
+      "Paperback"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "lnreader-plugins",
+    "name": "LNReader Plugins",
+    "logoUrl": "https://github.com/LNReader.png",
+    "types": [
+      "Novel"
+    ],
+    "region": "ALL",
+    "accentColor": "#1C7487",
+    "autoUrl": "lnreader://repo/add?url=https://raw.githubusercontent.com/LNReader/lnreader-plugins/plugins/v3.0.0/.dist/plugins.min.json",
+    "manualUrl": "https://raw.githubusercontent.com/LNReader/lnreader-plugins/plugins/v3.0.0/.dist/plugins.min.json",
+    "website": "https://www.lnreader.app/plugins",
+    "github": "https://github.com/LNReader/lnreader-plugins",
+    "supportedApps": [
+      "ln-reader",
+      "IReader"
+    ],
+    "info": "Plugin repository for LNReader app.",
+    "keywords": [
+      "lnreader",
+      "plugins"
+    ],
+    "lastUpdated": "2025-09-28"
+  },
+  {
+    "id": "stremio-addon",
+    "name": "Stremio Addons",
+    "logoUrl": "https://stremio-addons.net/favicon.ico",
+    "types": [
+      "Anime"
+    ],
+    "region": "ALL",
+    "accentColor": "#5A59ED",
+    "website": "https://stremio-addons.net/",
+    "supportedApps": [
+      "stremio"
+    ],
+    "info": "Community curated list of Stremio addons."
+  },
+  {
+    "id": "mangayomi-custom",
+    "info": "A collection of custom buttons for Mangayomi.",
+    "name": "Manyayomi Custom Buttons",
+    "github": "https://github.com/Schnitzel5/mangayomi-custom-buttons",
+    "types": [
+      "Mangayomi"
+    ],
+    "supportedApps": [
+      "mangayomi"
+    ],
+    "accentColor": "#BE1622"
+  },
+  {
+    "id": "mangayomi-apkbridge",
+    "accentColor": "#BE1622",
+    "name": "Mangayomi ApkBridge",
+    "info": "Use your Mihon/Aniyomi extensions in Mangayomi!",
+    "github": "https://github.com/Schnitzel5/ApkBridge",
+    "supportedApps": [
+      "mangayomi"
+    ],
+    "types": [
+      "Mangayomi"
+    ]
+  },
+  {
+    "id": "ireader-extensions",
+    "name": "IReader Extensions",
+    "logoUrl": "https://raw.githubusercontent.com/IReaderorg/IReader-website/refs/heads/main/public/icon-512x512.png",
+    "types": [
+      "Novel"
+    ],
+    "region": "ALL",
+    "accentColor": "#A68DB8",
+    "github": "https://github.com/IReaderorg/IReader-extensions",
+    "supportedApps": [
+      "IReader"
+    ],
+    "info": "Official extension repository for IReader novel reader.",
+    "keywords": [
+      "ireader",
+      "light novel",
+      "extensions"
+    ],
+    "lastUpdated": "2025-12-31"
+  }
+]
